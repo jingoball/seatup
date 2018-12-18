@@ -1,0 +1,13 @@
+<h1>This is after you submit the feedback??</h1>
+
+<h2>Check the database under terminal...mongo...show dbs...use (app name)...db.?.find()...check if it's there whatever
+  you have keyed in...tq</h2>
+
+{{#each ideas}}
+<div class="card card-body mb-2">
+  <h4>{{title}}</h4>
+  <p>{{details}}</p>
+</div>
+{{else}}
+<p>No video ideas listed</p>
+{{/each}}
